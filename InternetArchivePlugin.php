@@ -32,6 +32,11 @@ class InternetArchivePlugin extends BasePlugin
     {
         return 'Archive entries of Craft CMS sites in the Internet Archive.';
     }
+    
+    public function getSettingsUrl()
+    {
+        return 'internetArchive/settings';
+    }
 
     function init() 
     {
