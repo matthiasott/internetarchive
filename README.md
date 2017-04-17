@@ -12,7 +12,13 @@ Plugin for [Craft CMS](https://craftcms.com) that notifies the Internet Archive 
 
 The plugin pings the Internet Archive on every save of a published entry to archive the corresponding URL. It can then be accessed using the Internet Archive's [Wayback Machine](https://archive.org/web/). More information on how to trigger an archival and why this is a good idea can be found on the [IndieWeb Wiki](https://indieweb.org/Internet_Archive).
 
+If you want to send all URLs of your site at once, you can do so on the plugin’s settings page.
+
 ## Changelog
+
+### 0.2.0
+
+* Save all URLs of your site at once at the click of a button.
 
 ### 0.1.0
 

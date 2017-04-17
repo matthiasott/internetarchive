@@ -10,7 +10,7 @@ class InternetArchivePlugin extends BasePlugin
 
     public function getVersion()
     {
-        return '0.1.0';
+        return '0.2.0';
     }
 
     public function getDeveloper()
@@ -30,7 +30,7 @@ class InternetArchivePlugin extends BasePlugin
 
     public function getDescription()
     {
-        return 'Notifies the Internet Archive to archive entries on save.';
+        return 'Archive entries of Craft CMS sites in the Internet Archive.';
     }
 
     function init() 
@@ -41,4 +41,3 @@ class InternetArchivePlugin extends BasePlugin
     }
 
 }
-

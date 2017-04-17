@@ -1,0 +1,9 @@
+{% extends "internetArchive/_layouts/settings" %}
+
+{% import "_includes/forms" as forms %}
+
+{% set content %}
+    <h3>Archive all URLs</h3>
+    <p>This will send the URLs for all active entries of your site to the Internet Archive.</p>
+    <p><a class="btn submit" href="{{ actionUrl('internetArchive/entries/saveAll') }}">{{'Send now'|t}}</a></p>
+{% endset %}
