@@ -54,7 +54,7 @@ class InternetArchiveService extends BaseApplicationComponent
           array(CURLOPT_URL => ('https://web.archive.org/save/' . $url),
                 CURLOPT_HEADER => true,
                 CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_HTTPHEADER => array('Accept: application/json'),
+                CURLOPT_FOLLOWLOCATION => false,
                 CURLOPT_USERAGENT => "Craft CMS");
           $ch = curl_init();
           curl_setopt_array($ch, $options);
